@@ -94,3 +94,25 @@ Algumas evoluções planejadas para o projeto:
 - [ ] Animações suaves na troca de páginas;
 - [ ] Filtros (casa, espécie, gênero, etc.);
 - [ ] Ordenação (nome, casa, etc.);
+
+## Estrutura Inicial do Projeto
+
+O projeto foi iniciado por Miguel, responsável pela criação da estrutura base da aplicação, incluindo:
+
+📁Components
+
+Organização dos componentes reutilizáveis da interface:
+
+-layout → Componentes estruturais da aplicação
+-produtos → Componentes relacionados aos produtos (botão, o card e a imagem)
+-shared → Componentes compartilhados entre páginas
+-ui → Elementos visuais e de interface
+
+📁Config
+-app config → Configurações gerais da aplicação
+
+📁Pages
+Estrutura inicial das páginas:
+
+-carrinho → Página do carrinho de compras
+-produtos → Página de listagem/exibição de produtos
