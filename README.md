@@ -116,3 +116,53 @@ Estrutura inicial das páginas:
 
 -carrinho → Página do carrinho de compras
 -produtos → Página de listagem/exibição de produtos
+
+
+## Estrutura Inicial do Projeto
+
+O projeto foi iniciado por Miguel, responsável pela criação da estrutura base da aplicação, incluindo:
+
+📁Components
+
+Organização dos componentes reutilizáveis da interface:
+
+-layout → Componentes estruturais da aplicação
+-produtos → Componentes relacionados aos produtos (botão, o card e a imagem)
+-shared → Componentes compartilhados entre páginas
+-ui → Elementos visuais e de interface
+
+📁Config
+-app config → Configurações gerais da aplicação
+
+📁Pages
+Estrutura inicial das páginas:
+
+-carrinho → Página do carrinho de compras
+-produtos → Página de listagem/exibição de produtos
+
+## Continuidade do Desenvolvimento
+
+Posteriormente, o projeto teve continuidade por Akila, responsável pela implementação e organização de novas funcionalidades e estruturas da aplicação, incluindo:
+
+📁 Pages
+
+Criação e desenvolvimento de páginas adicionais:
+
+categorias.page.js → Página de listagem e gerenciamento de categorias
+📁 Services
+
+Implementação da camada de comunicação com a API:
+
+categorias.api.js → Serviços relacionados às categorias
+produtos.api.js → Serviços relacionados aos produtos
+📁 Storage
+
+Estrutura de persistência de dados no navegador:
+
+carrinho.storage.js → Gerenciamento e armazenamento do carrinho de compras
+📄 Arquivos Principais da Aplicação
+main.js → Inicialização e configuração principal da aplicação
+style.css → Estilização global do projeto
+index.html → Estrutura base da aplicação web
+
+Além disso, Akila também participou da organização da arquitetura do projeto e da integração das funcionalidades à versão final da aplicação.
