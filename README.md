@@ -146,15 +146,18 @@ Posteriormente, o projeto teve continuidade por Akila, responsável pela impleme
 
 📁 Pages
 
-Criação e desenvolvimento de páginas adicionais:
+Criação e desenvolvimento de páginas:
 
-categorias.page.js → Página de listagem e gerenciamento de categorias
+categorias.page.js, carrinho.page.js, produtos.page.js → Página de listagem e gerenciamento de categorias, produtos e carrinho
+
 📁 Services
 
 Implementação da camada de comunicação com a API:
 
 categorias.api.js → Serviços relacionados às categorias
 produtos.api.js → Serviços relacionados aos produtos
+pedido.api.js → Serviços relacionados ao pedido
+
 📁 Storage
 
 Estrutura de persistência de dados no navegador:
